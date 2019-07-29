@@ -541,21 +541,19 @@ section.bl-expand .bl-icon-close {
     background: url(https://2.bp.blogspot.com/-W1O-VvYSgWs/VZa3_TJk8zI/AAAAAAAAHLg/T9CqONxBs5k/s1600/Saint-%2BBenedict%2B1.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    text-shadow: 0 0 10px #FFFFFF;
+    text-shadow: 0 0 10px #000;
 }
 
 .bl-box.box-2 {
     background: url(https://wallpapercave.com/wp/wp2492751.png);
     background-size: cover;
     background-position: center;
-    text-shadow: 0 0 10px #FFFFFF;
-    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+    text-shadow: 0 0 10px #000;
 }
 
 .bl-box.box-3 {
     background: url(https://wallpapercave.com/wp/ipH14nd.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    text-shadow: 0 0 10px #FFFFFF;
-    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+    text-shadow: 0 0 10px #000;
 }
