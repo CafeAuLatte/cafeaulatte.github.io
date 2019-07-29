@@ -61,22 +61,29 @@ a:hover {
 	height: 100%;
 }
 
+/* BACKGROUND FOR EACH TITLE COLUMN */
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: #F06060;
+	background: url(https://2.bp.blogspot.com/-W1O-VvYSgWs/VZa3_TJk8zI/AAAAAAAAHLg/T9CqONxBs5k/s1600/Saint-%2BBenedict%2B1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
 }
 
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 20%;
-	background: #FA987D;
+	background: url(https://wallpapercave.com/wp/wp2492751.png);
+	background-size: cover;
+    	background-position: center;
 }
 
 .bl-main > section:nth-child(3) {
 	top: 0;
 	left: 40%;
-	background: #72CCA7;
+	background: url(https://wallpapercave.com/wp/ipH14nd.jpg);
+    	background-position: center;
+    	background-repeat: no-repeat;
 }
 
 .bl-main > section:nth-child(4) {
@@ -84,6 +91,7 @@ a:hover {
 	left: 60%;
 	background: #10A296;
 }
+/* END BACKGROUND FOR EACH TITLE COLUMN */
 
 .bl-main > section:nth-child(5) {
 	top: 0%;
@@ -102,7 +110,6 @@ a:hover {
 	left: 120%;
 	background: #10A296;
 }
-
 
 .bl-box {
 	position: relative;
@@ -411,6 +418,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 	z-index: 100;
 }
 
+/* BACKGROUNDS FOR EACH BOX CONTENT */
 .bl-main > section:first-child.bl-expand {
 	background: #EE4444;
 }
@@ -423,6 +431,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 .bl-main > section:nth-child(4).bl-expand {
 	background: #0D8278;
 }
+/* END BACKGROUNDS FOR EACH BOX CONTENT */
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
 .bl-main.bl-expand-item > section.bl-scale-down {
@@ -503,10 +512,11 @@ section.bl-expand .bl-icon-close {
 	text-align: center;
 }
 
+/* RESEARCHERS PICTURE WRAPPER */
 .image-wrap{
-	border-radius: 3rem;
-	border: 3px solid #fff;
-	width: 80px;
+    border-radius: 3rem;
+    border: 3px solid #fff;
+    width: 80px;
     height: 80px;
     display: inline-block;
     vertical-align: middle;
@@ -514,10 +524,12 @@ section.bl-expand .bl-icon-close {
 }
 
 .image-wrap img{
-	width: 100%;
-	border-radius: 3rem;
+    width: 100%;
+    border-radius: 3rem;
 }
+/* END RESEARCHERS PICTURE WRAPPER */
 
+/* SCROLL DESIGN */
 .bl-content::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -536,24 +548,18 @@ section.bl-expand .bl-icon-close {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #555;
 }
+/* END SCROLL DESIGN */
 
+/* ADDTL CLASS PER BOX TITLE */
 .bl-box.box-1 {
-    background: url(https://2.bp.blogspot.com/-W1O-VvYSgWs/VZa3_TJk8zI/AAAAAAAAHLg/T9CqONxBs5k/s1600/Saint-%2BBenedict%2B1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
     text-shadow: 0 0 10px #000;
 }
 
 .bl-box.box-2 {
-    background: url(https://wallpapercave.com/wp/wp2492751.png);
-    background-size: cover;
-    background-position: center;
     text-shadow: 0 0 10px #000;
 }
 
 .bl-box.box-3 {
-    background: url(https://wallpapercave.com/wp/ipH14nd.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
     text-shadow: 0 0 10px #000;
 }
+/* END ADDTL CLASS PER BOX TITLE */
